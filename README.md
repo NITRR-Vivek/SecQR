@@ -17,20 +17,30 @@ SecQR is an Android app developed by Vivek, Aashutosh, and Deepanshu. This app e
 
 ## Screenshots
 
-<div align="center">
-  <a href="https://github.com/NITRR-Vivek/SecQR" target="_blank">
-    <img src="https://firebasestorage.googleapis.com/v0/b/sec-qr1.appspot.com/o/screenshot1.jpg?alt=media&token=f3c9d3a9-7fab-411c-a34c-515fe02891e0" width="188" height="auto" alt="Screenshot 1">
-  </a>
-  <a href="https://github.com/NITRR-Vivek/SecQR" target="_blank">
-    <img src="https://firebasestorage.googleapis.com/v0/b/sec-qr1.appspot.com/o/screenshot2.jpg?alt=media&token=fa6a50ad-b3f3-49b6-a70f-b87607aadb61" width="188" height="auto" alt="Screenshot 2">
-  </a>
-  <a href="https://github.com/NITRR-Vivek/SecQR" target="_blank">
-    <img src="https://firebasestorage.googleapis.com/v0/b/sec-qr1.appspot.com/o/screenshot3.jpg?alt=media&token=7ecccd4c-1371-4457-98b0-7955b9c97b4c" width="188" height="auto" alt="Screenshot 3">
-  </a>
-  <a href="https://github.com/NITRR-Vivek/SecQR" target="_blank">
-    <img src="https://firebasestorage.googleapis.com/v0/b/sec-qr1.appspot.com/o/screenshot4.jpg?alt=media&token=8928e243-7dc9-4a01-9993-413e3a39f633" width="188" height="auto" alt="Screenshot 3">
-  </a>
-</div>
+<table>
+  <tr>
+    <td align="center">
+      <a href="#screenshots"><img src="https://firebasestorage.googleapis.com/v0/b/sec-qr1.appspot.com/o/screenshot1.jpg?alt=media&token=f3c9d3a9-7fab-411c-a34c-515fe02891e0" width="188" height="auto"></a>
+      <br />
+      <a href="#screenshots">Homepage</a>
+    </td>
+    <td align="center">
+      <a href="#screenshots"><img src="https://firebasestorage.googleapis.com/v0/b/sec-qr1.appspot.com/o/screenshot2.jpg?alt=media&token=fa6a50ad-b3f3-49b6-a70f-b87607aadb61" width="188" height="auto"></a>
+      <br />
+      <a href="#screenshots">QR Generation</a>
+    </td>
+    <td align="center">
+      <a href="#screenshots"><img src="https://firebasestorage.googleapis.com/v0/b/sec-qr1.appspot.com/o/screenshot3.jpg?alt=media&token=7ecccd4c-1371-4457-98b0-7955b9c97b4c" width="188" height="auto"></a>
+      <br />
+      <a href="#screenshots">History Saved</a>
+    </td>
+    <td align="center">
+      <a href="#screenshots"><img src="https://firebasestorage.googleapis.com/v0/b/sec-qr1.appspot.com/o/screenshot4.jpg?alt=media&token=8928e243-7dc9-4a01-9993-413e3a39f633" width="188" height="auto"></a>
+      <br />
+      <a href="#screenshots">Scanner Output</a>
+    </td>
+  </tr>
+</table>
 
 ## Clone this repository
 
