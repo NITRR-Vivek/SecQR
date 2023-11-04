@@ -17,14 +17,14 @@ SecQR is an Android app developed by Vivek, Aashutosh, and Deepanshu. This app e
 
 ## Screenshots
 
-![Screenshot 1](app/src/main/res/raw/screenshot1.jpg)
-![Screenshot 2](app/src/main/res/raw/screenshot2.jpg)
-![Screenshot 3](app/src/main/res/raw/screenshot3.jpg)
+![Screenshot 1](/app/src/main/res/raw/screenshot1.jpg)
+![Screenshot 2](/app/src/main/res/raw/screenshot2.jpg)
+![Screenshot 3](/app/src/main/res/raw/screenshot3.jpg)
 
 ## Meet the Team
 
 ### Vivek
-![Vivek's Photo](app/src/main/res/raw/team.jpg)
+![Vivek's Photo](/app/src/main/res/raw/team.jpg)
 - LinkedIn: [Vivek's LinkedIn Profile](https://www.linkedin.com/in/NITRR-Vivek)
 
 ### Aashutosh
