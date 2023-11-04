@@ -39,7 +39,7 @@ https://github.com/NITRR-Vivek/SecQR
 
 <div align="center">
   <a href="https://github.com/NITRR-Vivek/SecQR" target="_blank">
-    <img src="https://firebasestorage.googleapis.com/v0/b/sec-qr1.appspot.com/o/team.jpg?alt=media&token=c1d39e65-bbbe-44d2-b860-0d57ec0b09ea" style="max-width: 70%; height: auto;" alt="Team SecQR">
+    <img src="https://firebasestorage.googleapis.com/v0/b/sec-qr1.appspot.com/o/team.jpg?alt=media&token=c1d39e65-bbbe-44d2-b860-0d57ec0b09ea" width="300" height="auto" alt="Team SecQR">
   </a>
 </div>
 <br/>
