@@ -6,31 +6,59 @@ SecQR is an Android app developed by Vivek, Aashutosh, and Deepanshu. This app e
 
 - [Key Features](#key-features)
 - [Screenshots](#screenshots)
+- [Clone this repository](#clone-this-repository)
 - [Meet the Team](#meet-the-team)
-- [Connect with Us](#connect-with-us)
 
 ## Key Features
 
 - **Custom QR Code Generation:** Create unique QR codes for vehicles with customizable data.
-- **Stakeholder Levels:** Tailored data presentation for three distinct stakeholder levels.
-- **Offline Functionality:** Setup levels online, but operate offline for QR code generation and scanning.
+- **Stakeholder Levels:** Tailored data presentation for three distinct stakeholder levels. Three different stakeholders will see different data according to their priority level as data is encrypted. and common scanner will see the lowest priority level data.
+- **Offline Functionality:** Setup online once, then all features work offline like QR code generation or scanning or saving QR data in device.
 
 ## Screenshots
 
-![Screenshot 1](/app/src/main/res/raw/screenshot1.jpg)
-![Screenshot 2](/app/src/main/res/raw/screenshot2.jpg)
-![Screenshot 3](/app/src/main/res/raw/screenshot3.jpg)
+<table>
+  <tr>
+    <td align="center">
+      <a href="#screenshots"><img src="https://firebasestorage.googleapis.com/v0/b/sec-qr1.appspot.com/o/screenshot1.jpg?alt=media&token=f3c9d3a9-7fab-411c-a34c-515fe02891e0" width="188" height="auto"></a>
+      <br />
+      <a href="#screenshots">Homepage</a>
+    </td>
+    <td align="center">
+      <a href="#screenshots"><img src="https://firebasestorage.googleapis.com/v0/b/sec-qr1.appspot.com/o/screenshot2.jpg?alt=media&token=fa6a50ad-b3f3-49b6-a70f-b87607aadb61" width="188" height="auto"></a>
+      <br />
+      <a href="#screenshots">QR Generation</a>
+    </td>
+    <td align="center">
+      <a href="#screenshots"><img src="https://firebasestorage.googleapis.com/v0/b/sec-qr1.appspot.com/o/screenshot3.jpg?alt=media&token=7ecccd4c-1371-4457-98b0-7955b9c97b4c" width="188" height="auto"></a>
+      <br />
+      <a href="#screenshots">History Saved</a>
+    </td>
+    <td align="center">
+      <a href="#screenshots"><img src="https://firebasestorage.googleapis.com/v0/b/sec-qr1.appspot.com/o/screenshot4.jpg?alt=media&token=8928e243-7dc9-4a01-9993-413e3a39f633" width="188" height="auto"></a>
+      <br />
+      <a href="#screenshots">Scanner Output</a>
+    </td>
+  </tr>
+</table>
+
+## Clone this repository
+
+```sh
+https://github.com/NITRR-Vivek/SecQR
+```
 
 ## Meet the Team
 
-### Vivek
-![Vivek's Photo](/app/src/main/res/raw/team.jpg)
-- LinkedIn: [Vivek's LinkedIn Profile](https://www.linkedin.com/in/NITRR-Vivek)
+<div align="center">
+  <a href="https://github.com/NITRR-Vivek/SecQR" target="_blank">
+    <img src="https://firebasestorage.googleapis.com/v0/b/sec-qr1.appspot.com/o/team2.png?alt=media&token=65ac36a1-8d3c-4df0-adb7-19496f62daa4" width="300" height="auto" alt="Team SecQR">
+  </a>
+</div>
+<br/>
 
-### Aashutosh
-- LinkedIn: [Aashutosh's LinkedIn Profile](https://www.linkedin.com/in/aashutosh-patel)
-
-### Deepanshu
-- LinkedIn: [Deepanshu's LinkedIn Profile](https://www.linkedin.com/in/deepanshu-patel-3b55a0228)
-
+- LinkedIn: [Vivek Kumar](https://www.linkedin.com/in/NITRR-Vivek/)
+- LinkedIn: [Aashutosh Patel](https://www.linkedin.com/in/aashutosh-patel/)
+- LinkedIn: [Deepanshu Patel](https://www.linkedin.com/in/deepanshu-patel-3b55a0228/)
+ 
 ---
