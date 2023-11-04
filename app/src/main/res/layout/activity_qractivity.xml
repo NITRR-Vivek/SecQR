@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".QRActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vehicle_information"
+                android:textSize="24sp"
+                android:textIsSelectable="false"/>
+
+            <!-- EditText fields for vehicle details -->
+            <EditText
+                android:id="@+id/registrationNumberEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/registration_number"
+                android:inputType="textCapCharacters"
+                android:maxLength="10"
+                android:textAllCaps="true"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtVehicleClass"
+                android:hint="@string/vehicle_class_eg_car_scooter"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtRegState"
+                android:hint="@string/vehicle_registration_state"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/model_number"
+                android:id="@+id/modelNoEditText"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/manufacturing_year"
+                android:inputType="numberSigned"
+                android:id="@+id/edtModelYear"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtFuelType"
+                android:hint="@string/fuel_type"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtEngineNo"
+                android:hint="@string/engine_number"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtChassisNo"
+                android:hint="@string/chassis_number"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/owner_information"
+                android:textSize="24sp"
+                android:textIsSelectable="false"/>
+
+            <EditText
+                android:id="@+id/ownerNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/owner_name"
+                android:inputType="textPersonName"
+                android:autofillHints="name" />
+            <EditText
+                android:id="@+id/ownerFatherEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/father_s_name"
+                android:inputType="textPersonName"/>
+            <EditText
+                android:id="@+id/ownerCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/owner_category_eg_individual"
+                android:inputType="textPersonName"/>
+            <EditText
+                android:id="@+id/edtDLNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/driving_licence_number"
+                android:maxLength="16"
+                android:textAllCaps="true"
+                android:inputType="textCapCharacters"/>
+            <EditText
+                android:id="@+id/contactNumberEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/contact_number"
+                android:maxLength="10"
+                android:inputType="phone"
+                android:autofillHints="phone" />
+            <EditText
+                android:id="@+id/addressEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/address"
+                android:inputType="textPostalAddress"
+                android:autofillHints="postalAddress" />
+            <EditText
+                android:id="@+id/contactEmailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/contact_e_mail"
+                android:inputType="textEmailAddress"
+                android:autofillHints="emailAddress" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/purchase_date"
+                android:inputType="date"
+                android:id="@+id/purchaseEditText"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/insurance_information"
+                android:textSize="24sp"
+                android:textIsSelectable="false"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/insurance_company"
+                android:inputType="textPersonName"
+                android:id="@+id/edtINSCompany"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/insurance_from"
+                android:inputType="date"
+                android:id="@+id/edtINSFrom"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/insurance_upto"
+                android:inputType="date"
+                android:id="@+id/edtINSUpto"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/policy_number"
+                android:inputType="text"
+                android:id="@+id/edtINSPolicyNo"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/other_information"
+                android:textSize="24sp"
+                android:textIsSelectable="false"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/financer_name"
+                android:inputType="textPersonName"
+                android:id="@+id/edtFinancer"/>
+
+            <!-- Add EditText fields for other vehicle details here -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/generateQRButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/generate_qr_code"
+                    android:backgroundTint="#166F53"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/black" />
+
+            <ProgressBar
+                android:id="@+id/qrLoader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="20dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/qrCodeImageView"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:visibility="visible"
+                    android:layout_margin="15dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/secqr_logo"
+                    android:contentDescription="@string/logo" />
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_baseline_share_24"
+                        android:id="@+id/btnShareQR"
+                        android:visibility="visible"
+                        android:clickable="true"
+                        android:contentDescription="@string/share" />
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="25dp"
+                        android:src="@drawable/ic_baseline_save_alt_24"
+                        android:id="@+id/btnSaveQR"
+                        android:clickable="true"
+                        android:visibility="visible"
+                        android:contentDescription="@string/save" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/hiddenQRTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:text=""
+                android:layout_marginTop="5dp"
+                android:layout_gravity="start"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

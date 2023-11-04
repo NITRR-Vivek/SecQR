@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/sign_up_bg_2"
+    android:clipChildren="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="@string/qr_code_generated"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="30dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/qrCodeImageView2"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:visibility="visible"
+            android:layout_margin="10dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/secqr_logo"
+            android:contentDescription="@string/qr" />
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_baseline_share_24"
+                android:id="@+id/btnShareQR2"
+                android:visibility="visible"
+                android:clickable="true"
+                android:contentDescription="@string/share" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/ic_baseline_save_alt_24"
+                android:id="@+id/btnSaveQR2"
+                android:clickable="true"
+                android:visibility="visible"
+                android:contentDescription="@string/save" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center">
+
+        <!-- Call 112 Button -->
+        <Button
+            android:id="@+id/buttonCall112"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/call_112"
+            android:layout_marginEnd="16dp"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <!-- Cancel Button -->
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    android:background="@drawable/sign_up_bg_2"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:text="@string/phone_number_found"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnCallOwner"
+            android:layout_width="110sp"
+            android:layout_height="60dp"
+            android:text="@string/call_owner"
+            android:layout_marginEnd="16dp" />
+        <!-- Call 112 Button -->
+        <Button
+            android:id="@+id/buttonCall1122"
+            android:layout_width="110sp"
+            android:layout_height="60dp"
+            android:text="@string/call_112" />
+
+
+
+     </LinearLayout>
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnMessageOwner"
+            android:layout_width="110sp"
+            android:layout_height="60dp"
+            android:text="@string/message_owner"
+            android:layout_marginEnd="16dp" />
+
+        <!-- Cancel Button -->
+        <Button
+            android:id="@+id/buttonCancel2"
+            android:layout_width="110sp"
+            android:layout_height="60dp"
+            android:text="@string/cancel"
+             />
+    </LinearLayout>
+</LinearLayout>

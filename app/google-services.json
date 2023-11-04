@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "658281005001",
+    "project_id": "secqr-vigyaan",
+    "storage_bucket": "secqr-vigyaan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658281005001:android:28434fdea4cf1f68947218",
+        "android_client_info": {
+          "package_name": "com.wearev.secqr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj6T0oprssouwDa58irjUyywG2Z3Umxn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

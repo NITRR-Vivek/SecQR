@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1072894083456",
+    "firebase_url": "https://sec-qr1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "sec-qr1",
+    "storage_bucket": "sec-qr1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072894083456:android:9b44f575f94de214d38165",
+        "android_client_info": {
+          "package_name": "com.wearev.secqr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-RpEoPxBQFGFhmKqbjmbJZChSlHpM6D8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

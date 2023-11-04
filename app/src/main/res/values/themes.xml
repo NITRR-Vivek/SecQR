@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Light" parent="Theme.MaterialComponents.Light">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/app_color</item>
+        <item name="colorPrimaryVariant">#C2E4DC</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#BFDBD8</item>
+        <item name="colorSecondaryVariant">#038383</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/app_color</item>
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/k2dmbold</item>
+    </style>    <style name="Theme.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/app_color</item>
+        <item name="colorPrimaryVariant">#C2E4DC</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#BFDBD8</item>
+        <item name="colorSecondaryVariant">#038383</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/app_color</item>
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/k2dmbold</item>
+    </style>
+  <style name="Theme.SecQR" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <!-- Primary brand color. -->
+    <item name="colorPrimary">@color/app_color</item>
+      <item name="colorPrimaryVariant">#C2E4DC</item>
+    <item name="colorOnPrimary">@color/white</item>
+    <!-- Secondary brand color. -->
+      <item name="colorSecondary">#BFDBD8</item>
+      <item name="colorSecondaryVariant">#027E7E</item>
+    <item name="colorOnSecondary">@color/black</item>
+    <!-- Status bar color. -->
+    <item name="android:statusBarColor">@color/app_color</item>
+    <!-- Customize your theme here. -->
+      <item name="android:fontFamily">@font/k2dmbold</item>
+  </style>
+</resources>
