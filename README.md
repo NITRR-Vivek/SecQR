@@ -13,7 +13,7 @@ SecQR is an Android app developed by Vivek, Aashutosh, and Deepanshu. This app e
 
 - **Custom QR Code Generation:** Create unique QR codes for vehicles with customizable data.
 - **Stakeholder Levels:** Tailored data presentation for three distinct stakeholder levels.
-- **Offline Functionality:** Setup levels online, but operate offline for QR code generation and scanning.
+- **Offline Functionality:** Setup online once, then operate offline for QR code generation and scanning.
 
 ## Screenshots
 
