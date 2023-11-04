@@ -7,8 +7,7 @@ SecQR is an Android app developed by Vivek, Aashutosh, and Deepanshu. This app e
 - [Key Features](#key-features)
 - [Screenshots](#screenshots)
 - [Clone this repository](#clone-this-repository)
-- [Meet the Team : SecQR](#meet-the-team-secqr)
-- [Connect with Us](#connect-with-us)
+- [Meet the Team](#meet-the-team)
 
 ## Key Features
 
@@ -36,11 +35,11 @@ SecQR is an Android app developed by Vivek, Aashutosh, and Deepanshu. This app e
 https://github.com/NITRR-Vivek/SecQR
 ```
 
-## Meet the Team : SecQR
+## Meet the Team
 
 <div align="center">
   <a href="https://github.com/NITRR-Vivek/SecQR" target="_blank">
-    <img src="https://firebasestorage.googleapis.com/v0/b/sec-qr1.appspot.com/o/team2.jpg?alt=media&token=833db88c-ead1-45fb-aba4-d12056953d0f" width="288" height="162" alt="Screenshot 1">
+    <img src="https://firebasestorage.googleapis.com/v0/b/sec-qr1.appspot.com/o/team2.jpg?alt=media&token=833db88c-ead1-45fb-aba4-d12056953d0f" width="800" height="450" alt="Screenshot 1">
   </a>
 </div>
 <br/>
