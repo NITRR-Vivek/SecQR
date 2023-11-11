@@ -7,6 +7,7 @@ SecQR is an Android app developed by Vivek, Aashutosh, and Deepanshu. This app e
 - [Key Features](#key-features)
 - [Screenshots](#screenshots)
 - [Clone this repository](#clone-this-repository)
+- [Download apk](#download-this-app)
 - [Meet the Team](#meet-the-team)
 
 ## Key Features
@@ -49,7 +50,8 @@ https://github.com/NITRR-Vivek/SecQR
 ```
 
 ## Download This App
-[Download](https://drive.google.com/drive/folders/1_-bwsywmL8KCabl0vE5THqpT7lZOZyAZ?usp=sharing")
+[Download and use](https://drive.google.com/drive/folders/1_-bwsywmL8KCabl0vE5THqpT7lZOZyAZ?usp=sharing")
+_Note: By default the access permission is set to public for higher access level permissions, contact the Owner of the app._
 
 ## Meet the Team
 
