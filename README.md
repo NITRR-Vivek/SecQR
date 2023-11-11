@@ -63,8 +63,9 @@ https://github.com/NITRR-Vivek/SecQR
 
 ## Download This App
 [Download and use](https://drive.google.com/drive/folders/1_-bwsywmL8KCabl0vE5THqpT7lZOZyAZ?usp=sharing")
-****
-_Note: By default the access permission is set to public for higher access level permissions, contact the Owner of the app._
+
+<br />
+>_Note: By default the access permission is set to public for higher access level permissions, contact the Owner of the app._
 
 ## Meet the Team
 
