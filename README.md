@@ -16,6 +16,14 @@ SecQR is an Android app developed by Vivek, Aashutosh, and Deepanshu. This app e
 - **Stakeholder Levels:** Tailored data presentation for three distinct stakeholder levels. Three different stakeholders will see different data according to their priority level as data is encrypted. and common scanner will see the lowest priority level data.
 - **Offline Functionality:** Setup online once, then all features work offline like QR code generation or scanning or saving QR data in device.
 
+
+Currently you can know the complete details of any vehicle & its owner by its number like owner's phone number, home address and much more information can be seen by anyoneand no one would want their personal information to be accessible publically.
+We're making solution for this problem:
+--> We're proposing that rather than availing complete data publically it should be aviled hierarchically for eg: Permanent address and Contact number should be available for govt officialls only.
+--> For the purpose we're using a QR because it is fast and all data can be accessed offline making it useful in remote area and quick in emergency situation. 
+
+
+
 ## Screenshots
 
 <table>
