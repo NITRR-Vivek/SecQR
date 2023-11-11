@@ -48,6 +48,9 @@ SecQR is an Android app developed by Vivek, Aashutosh, and Deepanshu. This app e
 https://github.com/NITRR-Vivek/SecQR
 ```
 
+## Download This App
+[Download](https://drive.google.com/drive/folders/1_-bwsywmL8KCabl0vE5THqpT7lZOZyAZ?usp=sharing")
+
 ## Meet the Team
 
 <div align="center">
