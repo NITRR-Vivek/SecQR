@@ -19,7 +19,11 @@ SecQR is an Android app developed by Vivek, Aashutosh, and Deepanshu. This app e
 
 Currently you can know the complete details of any vehicle & its owner by its number like owner's phone number, home address and much more information can be seen by anyoneand no one would want their personal information to be accessible publically.
 We're making solution for this problem:
+
+
 --> We're proposing that rather than availing complete data publically it should be aviled hierarchically for eg: Permanent address and Contact number should be available for govt officialls only.
+
+
 --> For the purpose we're using a QR because it is fast and all data can be accessed offline making it useful in remote area and quick in emergency situation. 
 
 
