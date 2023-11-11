@@ -21,10 +21,10 @@ Currently you can know the complete details of any vehicle & its owner by its nu
 We're making solution for this problem:
 
 
---> We're proposing that rather than availing complete data publically it should be aviled hierarchically for eg: Permanent address and Contact number should be available for govt officialls only.
+> We're proposing that rather than availing complete data publically it should be aviled hierarchically for eg: Permanent address and Contact number should be available for govt officialls only.
 
 
---> For the purpose we're using a QR because it is fast and all data can be accessed offline making it useful in remote area and quick in emergency situation. 
+> For the purpose we're using a QR because it is fast and all data can be accessed offline making it useful in remote area and quick in emergency situation. 
 
 
 
@@ -65,7 +65,7 @@ https://github.com/NITRR-Vivek/SecQR
 Click: [Download and use](https://drive.google.com/drive/folders/1_-bwsywmL8KCabl0vE5THqpT7lZOZyAZ?usp=sharing")
 
 ---
-> _Note: By default the access permission is set to public for higher access level permissions, contact the Owner of the app._
+_Note: By default the access permission is set to public for higher access level permissions, contact the Owner of the app._
 
 ## Meet the Team
 
